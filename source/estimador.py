@@ -31,15 +31,15 @@ SCORING = 'accuracy'
 
 
 #--- Aux's de features
-aux_name = 1 # 0: Não realizar nenhum tratamento nesta feature.
+aux_name = 2 # 0: Não realizar nenhum tratamento nesta feature.
              # 1: Apenas separa quem tem título e quem não.
              # 2: Separa também pelo tipo de título.
 
-aux_cabin = 1 # 0: Não realizar nenhum tratamento nesta feature.
+aux_cabin = 2 # 0: Não realizar nenhum tratamento nesta feature.
               # 1: Substituir string apenas por 1º elemento, e NaN ser mantido como NaN.
               # 2: Substitui todas samples por 0.
 
-aux_ticket = 1 # 0: Não realizar nenhum tratamento nesta feature.
+aux_ticket = 2 # 0: Não realizar nenhum tratamento nesta feature.
                # 1: Substituir string apenas por 1º elemento.
                # 2: Substitui todas samples por 0.
 
